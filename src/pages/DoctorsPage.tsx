@@ -214,7 +214,7 @@ export const DoctorsPage: React.FC = () => {
                 {/* Doctor Photo Column */}
                 <div className="sm:w-2/5 relative aspect-[4/3] sm:aspect-auto bg-slate-100 shrink-0">
                   <ClinicImage
-                    src={doctor.image || doctor.image_url || '/src/assets/images/doctor_dr_sarah_khan_1791390148660.jpg'}
+                    src={doctor.image || doctor.image_url || '/images/doctor-sarah.jpg'}
                     alt={`Doctor photo of ${doctor.name}`}
                     className="w-full h-full object-cover"
                     spec={{

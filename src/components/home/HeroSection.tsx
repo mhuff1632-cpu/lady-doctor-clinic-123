@@ -87,7 +87,7 @@ export const HeroSection: React.FC = () => {
 
               <div className="rounded-2xl overflow-hidden border border-slate-200/80 shadow-md bg-white">
                 <ClinicImage
-                  src="/src/assets/images/hero_clinic_care_1791390127095.jpg"
+                  src="/images/hero_clinic_care_1791390127095.jpg"
                   alt="Doctor consulting with patient in calm clinic room"
                   aspectRatio="16/9"
                   className="w-full h-auto object-cover"

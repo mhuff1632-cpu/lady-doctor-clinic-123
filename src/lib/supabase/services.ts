@@ -62,7 +62,7 @@ export async function fetchActiveServices(): Promise<FetchServicesResult> {
         shortDescription: row.description.slice(0, 120) + (row.description.length > 120 ? '...' : ''),
         description: row.description,
         icon: row.icon || 'Stethoscope',
-        image: row.image_url || '/src/assets/images/clinic_interior_consultation_1791390183063.jpg',
+        image: row.image_url || '/images/clinic_interior_consultation_1791390183063.jpg',
         image_url: row.image_url,
         duration: row.duration,
         features: parsedFeatures,

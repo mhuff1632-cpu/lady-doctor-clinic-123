@@ -51,7 +51,7 @@ export async function fetchActiveDoctors(): Promise<FetchDoctorsResult> {
       department: row.department,
       experience: row.experience,
       bio: row.bio,
-      image: row.image_url || '/src/assets/images/doctor_dr_sarah_khan_1791390148660.jpg',
+      image: row.image_url || '/images/doctor-sarah.jpg',
       image_url: row.image_url,
       consultation_fee: row.consultation_fee,
       availability: row.availability,

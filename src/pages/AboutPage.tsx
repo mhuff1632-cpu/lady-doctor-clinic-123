@@ -87,7 +87,7 @@ export const AboutPage: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white">
               <ClinicImage
-                src="/src/assets/images/clinic_interior_consultation_1791390183063.jpg"
+                src="/images/clinic_interior_consultation_1791390183063.jpg"
                 alt="Lady Doctor Clinic consultation room interior"
                 aspectRatio="16/9"
                 className="w-full h-auto object-cover"

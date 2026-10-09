@@ -184,7 +184,7 @@ export const ServicesPage: React.FC = () => {
               const displayImage =
                 service.image ||
                 service.image_url ||
-                '/src/assets/images/clinic_interior_consultation_1791390183063.jpg';
+                '/images/clinic_interior_consultation_1791390183063.jpg';
 
               return (
                 <div

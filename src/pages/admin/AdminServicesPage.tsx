@@ -181,8 +181,8 @@ export const AdminServicesPage: React.FC = () => {
           description: formData.description,
           duration: formData.duration,
           icon: formData.icon,
-          image_url: formData.image_url || '/src/assets/images/clinic_interior_consultation_1791390183063.jpg',
-          image: formData.image_url || '/src/assets/images/clinic_interior_consultation_1791390183063.jpg',
+          image_url: formData.image_url || '/images/clinic_interior_consultation_1791390183063.jpg',
+          image: formData.image_url || '/images/clinic_interior_consultation_1791390183063.jpg',
           features: parsedFeatures,
           is_active: formData.is_active,
         });

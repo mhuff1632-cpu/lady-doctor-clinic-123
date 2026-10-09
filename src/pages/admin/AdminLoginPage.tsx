@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter, Link } from '../../context/RouterContext';
 import { useAuth } from '../../context/AuthContext';
 import { Lock, Mail, Eye, EyeOff, Loader2, ArrowLeft, ShieldCheck, Heart } from 'lucide-react';
+import { ClinicLogo } from '../../components/ui/ClinicLogo';
 
 export const AdminLoginPage: React.FC = () => {
   const { navigate } = useRouter();
@@ -81,14 +82,11 @@ export const AdminLoginPage: React.FC = () => {
 
       <div className="sm:mx-auto sm:w-full sm:max-w-md relative z-10">
         {/* Brand */}
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-rose-950 border border-rose-800/80 text-rose-400 mb-4 shadow-lg">
-            <Heart className="w-6 h-6 fill-rose-500/20" />
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
-            Lady Doctor Clinic
-          </h2>
-          <p className="mt-1.5 text-xs text-rose-400 font-mono tracking-wider uppercase">
+        <div className="text-center mb-8 flex flex-col items-center">
+          <Link to="/" className="inline-block hover:opacity-95 transition-opacity mb-2">
+            <ClinicLogo variant="light" size="lg" />
+          </Link>
+          <p className="text-xs text-rose-400 font-mono tracking-wider uppercase">
             Staff & Clinical Portal Access
           </p>
         </div>

@@ -18,6 +18,7 @@ import {
   Star,
   DollarSign,
 } from 'lucide-react';
+import { ClinicLogo } from '../ui/ClinicLogo';
 
 interface AdminLayoutProps {
   children: ReactNode;
@@ -53,17 +54,9 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, title, subti
       {/* Desktop Sidebar */}
       <aside className="hidden md:flex flex-col w-64 bg-slate-950 border-r border-slate-800 shrink-0 select-none">
         {/* Brand Area */}
-        <div className="p-6 border-b border-slate-800/80">
-          <Link to="/admin" className="flex items-center gap-2.5">
-            <span className="w-3 h-3 rounded-full bg-rose-500 shrink-0"></span>
-            <div>
-              <span className="font-bold text-base text-white tracking-tight block">
-                Lady Doctor Clinic
-              </span>
-              <span className="text-[10px] text-rose-400 font-mono tracking-wider uppercase block">
-                Management Portal
-              </span>
-            </div>
+        <div className="p-5 border-b border-slate-800/80">
+          <Link to="/admin" className="block hover:opacity-95 transition-opacity">
+            <ClinicLogo variant="admin" size="sm" />
           </Link>
         </div>
 
@@ -140,8 +133,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, title, subti
         {/* Mobile Header Bar */}
         <header className="md:hidden flex items-center justify-between px-4 py-3.5 bg-slate-950 border-b border-slate-800">
           <Link to="/admin" className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
-            <span className="font-bold text-sm text-white">Lady Doctor Clinic Admin</span>
+            <ClinicLogo variant="admin" size="sm" showSubtitle={false} />
           </Link>
 
           <button

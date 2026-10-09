@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useRouter, Link } from '../../context/RouterContext';
 import { Menu, X, Calendar, Phone, Heart } from 'lucide-react';
 import { clinicInfo } from '../../data/clinicInfo';
+import { ClinicLogo } from '../ui/ClinicLogo';
 
 export const Header: React.FC = () => {
   const { currentPath, navigate } = useRouter();
@@ -51,10 +52,9 @@ export const Header: React.FC = () => {
         {/* Zone 1: Brand Wordmark (Single clean element) */}
         <Link
           to="/"
-          className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 hover:text-rose-700 transition-colors flex items-center gap-2"
+          className="hover:opacity-95 transition-opacity"
         >
-          <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span>
-          <span>Lady Doctor Clinic</span>
+          <ClinicLogo size="md" />
         </Link>
 
         {/* Zone 2: Navigation Links (Text with subtle hover underline) */}

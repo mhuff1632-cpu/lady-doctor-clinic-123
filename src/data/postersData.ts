@@ -7,7 +7,7 @@ export const initialClinicPosters: ClinicPoster[] = [
     theme: "Gynecology & Women's Health",
     description:
       "Comprehensive gynecological consultations, PCOS & hormone balancing, preventive pap smears, menstrual irregularities management, and private female-only medical care.",
-    image_url: '', // Awaiting official poster graphic from clinic owner
+    image_url: '/images/poster-1.jpg',
     display_order: 1,
     is_active: true,
     highlights: [
@@ -24,7 +24,7 @@ export const initialClinicPosters: ClinicPoster[] = [
     theme: 'Pregnancy & Antenatal Care',
     description:
       'Dedicated maternal health tracking from first trimester confirmation to postpartum recovery. High-risk pregnancy monitoring, nutritional guidance, and gentle normal delivery preparation.',
-    image_url: '', // Awaiting official poster graphic from clinic owner
+    image_url: '/images/poster-2.jpg',
     display_order: 2,
     is_active: true,
     highlights: [
@@ -41,7 +41,7 @@ export const initialClinicPosters: ClinicPoster[] = [
     theme: "Ultrasound & Women's Diagnostics",
     description:
       'High-resolution diagnostic ultrasound equipment operated by certified female sonographers. Complete pelvic imaging, early pregnancy confirmation, fetal anomaly checks, and same-day clinical reports.',
-    image_url: '', // Awaiting official poster graphic from clinic owner
+    image_url: '/images/poster-3.jpg',
     display_order: 3,
     is_active: true,
     highlights: [
@@ -58,7 +58,7 @@ export const initialClinicPosters: ClinicPoster[] = [
     theme: 'Family Planning & Reproductive Health',
     description:
       'Empathetic, medically sound counseling for pre-conceptional readiness, fertility diagnostics, hormonal profiling, and personalized family planning choices.',
-    image_url: '', // Awaiting official poster graphic from clinic owner
+    image_url: '/images/poster-4.jpg',
     display_order: 4,
     is_active: true,
     highlights: [
@@ -75,7 +75,7 @@ export const initialClinicPosters: ClinicPoster[] = [
     theme: "Overview of Verified Clinic Services",
     description:
       'A holistic view of all specialized clinical services offered at Lady Doctor Clinic, Sadiqabad: Obstetrics, Gynecology, Pediatric Immunization, Diagnostics, and 24/7 Maternity Emergency triage.',
-    image_url: '', // Awaiting official poster graphic from clinic owner
+    image_url: '/images/poster-5.jpg',
     display_order: 5,
     is_active: true,
     highlights: [

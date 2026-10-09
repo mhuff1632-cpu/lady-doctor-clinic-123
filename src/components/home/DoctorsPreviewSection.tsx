@@ -43,7 +43,7 @@ export const DoctorsPreviewSection: React.FC<DoctorsPreviewProps> = ({ doctors: 
             const displayImg =
               doctor.image ||
               doctor.image_url ||
-              '/src/assets/images/doctor_dr_sarah_khan_1791390148660.jpg';
+              '/images/doctor-sarah.jpg';
 
             return (
               <div

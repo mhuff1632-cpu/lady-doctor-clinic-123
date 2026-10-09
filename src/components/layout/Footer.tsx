@@ -3,6 +3,7 @@ import { useRouter, Link } from '../../context/RouterContext';
 import { clinicInfo } from '../../data/clinicInfo';
 import { Phone, Mail, MapPin, Clock, ArrowRight, ShieldCheck, HeartHandshake, X } from 'lucide-react';
 import { SocialLinks } from '../ui/SocialLinks';
+import { ClinicLogo } from '../ui/ClinicLogo';
 
 export const Footer: React.FC = () => {
   const { navigate } = useRouter();
@@ -36,9 +37,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
           {/* Brand & clinic bio */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="inline-flex items-center gap-2 text-xl font-bold text-white tracking-tight">
-              <span className="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
-              <span>Lady Doctor Clinic</span>
+            <Link to="/" className="inline-block hover:opacity-95 transition-opacity">
+              <ClinicLogo variant="light" size="md" />
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               A private, reassuring clinical haven dedicated to women and children. Delivering

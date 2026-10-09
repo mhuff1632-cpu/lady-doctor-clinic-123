@@ -32,6 +32,15 @@ export const ClinicImage: React.FC<ClinicImageProps> = ({
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
+  // Normalize image URL: resolve Vite dev-only /src/assets/ paths to production public /images/ paths
+  const resolvedSrc = React.useMemo(() => {
+    if (!src) return '';
+    if (src.startsWith('/src/assets/images/')) {
+      return src.replace('/src/assets/images/', '/images/');
+    }
+    return src;
+  }, [src]);
+
   const aspectClass =
     aspectRatio === '16/9'
       ? 'aspect-[16/9]'
@@ -44,7 +53,7 @@ export const ClinicImage: React.FC<ClinicImageProps> = ({
       : '';
 
   // Fallback visual container complying with Zero-Broken-Image Policy
-  if (!src || hasError) {
+  if (!resolvedSrc || hasError) {
     return (
       <div
         className={`relative overflow-hidden rounded-xl bg-gradient-to-br from-rose-50 via-slate-50 to-teal-50/40 border border-slate-200/80 flex flex-col items-center justify-center p-6 text-center text-slate-500 ${aspectClass} ${className}`}
@@ -72,7 +81,7 @@ export const ClinicImage: React.FC<ClinicImageProps> = ({
       data-recommended-dims={spec?.recommendedDimensions}
     >
       <img
-        src={src}
+        src={resolvedSrc}
         alt={alt}
         loading={priority ? 'eager' : 'lazy'}
         referrerPolicy="no-referrer"

@@ -8,7 +8,7 @@ export const demoServices: Service[] = [
     shortDescription: 'Comprehensive pregnancy monitoring from early conception through delivery planning and postpartum support.',
     description: 'Our obstetrics service prioritizes mother and baby wellness through gentle ultrasound assessments, gestational screening, nutrition counsel, and personalized birth plan coordination with experienced female specialists.',
     icon: 'HeartHandshake',
-    image: '/src/assets/images/hero_clinic_care_1791390127095.jpg',
+    image: '/images/hero_clinic_care_1791390127095.jpg',
     status: 'active',
     duration: '45 mins',
     features: [
@@ -26,7 +26,7 @@ export const demoServices: Service[] = [
     shortDescription: 'Confidential consultations for menstrual irregularities, pelvic comfort, routine Pap smears, and breast checks.',
     description: 'Compassionate, unhurried care addressing common and complex gynecological conditions in a safe, judgment-free medical sanctuary with gentle diagnostic methods.',
     icon: 'Stethoscope',
-    image: '/src/assets/images/clinic_interior_consultation_1791390183063.jpg',
+    image: '/images/clinic_interior_consultation_1791390183063.jpg',
     status: 'active',
     duration: '30 mins',
     features: [
@@ -44,7 +44,7 @@ export const demoServices: Service[] = [
     shortDescription: 'Tailored hormonal assessments, ovulation tracking, PCOS treatment pathways, and pre-conception care.',
     description: 'Evidence-based hormonal balance strategies combining endocrine lab diagnostics, lifestyle counseling, cycle monitoring, and compassionate fertility evaluations.',
     icon: 'Activity',
-    image: '/src/assets/images/clinic_interior_consultation_1791390183063.jpg',
+    image: '/images/clinic_interior_consultation_1791390183063.jpg',
     status: 'active',
     duration: '45 mins',
     features: [
@@ -62,7 +62,7 @@ export const demoServices: Service[] = [
     shortDescription: 'Gentle medical care for infants, toddlers, and young adolescents by board-certified pediatricians.',
     description: 'Thorough newborn wellness visits, growth milestones evaluation, immunization administration, feeding consultations, and childhood illness diagnostics in a calming environment.',
     icon: 'Baby',
-    image: '/src/assets/images/doctor_dr_amina_rehman_1791390165189.jpg',
+    image: '/images/doctor-amina.jpg',
     status: 'active',
     duration: '30 mins',
     features: [
@@ -80,7 +80,7 @@ export const demoServices: Service[] = [
     shortDescription: 'Holistic support through perimenopause and post-menopause with personalized hormonal and bone health strategies.',
     description: 'Specialized support navigating physiological changes, hot flushes, sleep disturbance, bone density preservation, and cardiovascular wellness during later life stages.',
     icon: 'Sparkles',
-    image: '/src/assets/images/hero_clinic_care_1791390127095.jpg',
+    image: '/images/hero_clinic_care_1791390127095.jpg',
     status: 'active',
     duration: '40 mins',
     features: [
@@ -98,7 +98,7 @@ export const demoServices: Service[] = [
     shortDescription: 'High-definition pelvic, obstetric, and abdominal ultrasound scans performed in a private, gentle setting.',
     description: 'Modern non-invasive ultrasound imaging operated with maximum patient comfort and immediate physician review for rapid diagnostic clarity.',
     icon: 'ShieldCheck',
-    image: '/src/assets/images/clinic_interior_consultation_1791390183063.jpg',
+    image: '/images/clinic_interior_consultation_1791390183063.jpg',
     status: 'active',
     duration: '30 mins',
     features: [

@@ -194,8 +194,8 @@ export const AdminDoctorsPage: React.FC = () => {
           department: formData.department,
           experience: formData.experience || '5+ Years Clinical Experience',
           bio: formData.bio,
-          image_url: formData.image_url || '/src/assets/images/doctor_dr_sarah_khan_1791390148660.jpg',
-          image: formData.image_url || '/src/assets/images/doctor_dr_sarah_khan_1791390148660.jpg',
+          image_url: formData.image_url || '/images/doctor-sarah.jpg',
+          image: formData.image_url || '/images/doctor-sarah.jpg',
           consultation_fee: formData.consultation_fee,
           availability: formData.availability,
           is_active: formData.is_active,
@@ -337,7 +337,7 @@ export const AdminDoctorsPage: React.FC = () => {
                         <td className="py-3 px-4">
                           <div className="flex items-center gap-3">
                             <img
-                              src={doc.image || doc.image_url || '/src/assets/images/doctor_dr_sarah_khan_1791390148660.jpg'}
+                              src={doc.image || doc.image_url || '/images/doctor-sarah.jpg'}
                               alt=""
                               className="w-9 h-9 rounded-full object-cover border border-slate-800 shrink-0"
                             />
