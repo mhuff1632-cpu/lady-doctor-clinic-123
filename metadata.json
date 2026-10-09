@@ -1,0 +1,6 @@
+{
+  "name": "Lady Doctor Clinic",
+  "description": "Professional women-focused healthcare clinic offering compassionate, expert medical care, consultations, and specialized women's health services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
